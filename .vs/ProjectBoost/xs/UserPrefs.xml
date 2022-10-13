@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{AB8CE7F0-90C1-768A-AA8E-B315068943FA}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="265ed9d6-22f4-416f-9af3-12b259cecac5" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CollisionHandler.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Movement.cs" Line="46" Column="1" />
+      <File FileName="Assets/Scripts/CollisionHandler.cs" Line="53" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProjectBoost" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
