@@ -541,7 +541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5021626838572897350, guid: 22490f0144c7c46a299d252d8341ca7b, type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5124569957479456270, guid: 22490f0144c7c46a299d252d8341ca7b, type: 3}
       propertyPath: m_LocalScale.z
