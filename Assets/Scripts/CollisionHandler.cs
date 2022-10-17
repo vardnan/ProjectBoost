@@ -22,7 +22,7 @@ public class CollisionHandler : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (isTransitioning) { return; }
+        if (isTransitioning || GetComponent<DebugScript>().collisionDisabled) { return; }
   
         switch(collision.gameObject.tag)
         {
@@ -68,7 +68,7 @@ public class CollisionHandler : MonoBehaviour
        SceneManager.LoadScene(currentSceneIndex);
     }
 
-    void LoadNextLevel()
+    public void LoadNextLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
